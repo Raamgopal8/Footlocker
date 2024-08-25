@@ -1,14 +1,14 @@
 import React from 'react'
-import Tero from '../components/Tero/Tero'
+import Hero from '../components/Hero/Tero'
 
-const shop = () => {
+const Shop = () =>{
     return (
         <div>
 
-        <Tero />
+        <Hero/>
 
         </div>
     )
 }
 
-export default shop
+export default Shop

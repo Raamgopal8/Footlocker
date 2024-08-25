@@ -1,8 +1,9 @@
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter, Routes, Route ,}from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import LoginSignup from './Pages/LoginSignup';
+import Shop from './Pages/Shop';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>  
        <Navbar/>
        <Routes> 
-        <Route path='/' element={<shop/>}/>
+        <Route path='/' element={<Shop/>}/>
         <Route path = '/Mens' element={<shopcategory category = "Mens"/>}/>
         <Route path = '/Womens' element={<shopcategory category = "Womens"/>}/>
         <Route path = '/Kids' element={<shopcategory category = "Kids"/>}/>

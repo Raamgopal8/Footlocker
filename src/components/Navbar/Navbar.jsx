@@ -6,7 +6,7 @@ import cart_icon from '../assests/cart_icon.png'
 
 
 const Navbar = () => {
-   const [menu,setMenu] = useState("Shop");
+   const [menu,setMenu] = useState("shop");
 
     return(  
         <div className='navbar'>  
@@ -16,7 +16,7 @@ const Navbar = () => {
            </div>
            <ul className = "nav-menu">
             
-            <li onClick={()=>{setMenu("Shop")}}><Link style={{ textDecoration : 'none' }} to = '/'>Shop</Link>{menu ==="Shop" ?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("shop")}}><Link style={{ textDecoration : 'none' }} to = '/'>Shop</Link>{menu ==="shop" ?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("Mens")}}><Link style={{ textDecoration : 'none' }} to ='/Mens'>Men</Link>{menu ==="Mens" ?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("Womens")}}><Link style={{ textDecoration : 'none' }} to ='/Womens'>Women</Link>{menu ==="Womens" ?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("Kids")}}><Link style={{ textDecoration : 'none' }} to ='/Kids'>Kids</Link>{menu ==="Kids" ?<hr/>:<></>}</li>
