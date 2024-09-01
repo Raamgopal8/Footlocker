@@ -47,3 +47,16 @@
     font-size: 18px;
     font-weight: 500;
 }
+.login-login span{
+    color:red;
+    font-weight: 600;
+}
+.login-agree{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+    gap:20px;
+    color:#5c5c5c;
+    font-weight:500 ;
+    font-size: 18px;
+}

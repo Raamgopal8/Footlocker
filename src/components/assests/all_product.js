@@ -7,7 +7,7 @@ import p6_img from "./girl6.jpg";
 import p7_img from "./kids1.jpg";
 import p8_img from "./kids2.jpg";
 import p9_img from "./kids3.jpg";
-import p10_img from ".kids4.jpg/";
+import p10_img from "./kids4.jpg";
 import p11_img from "./kids5.jpg";
 import p12_img from "./kids6.jpg";
 import p13_img from "./men1.jpg";
