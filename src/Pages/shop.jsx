@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../components/Hero/Tero'
-import popular from '../components/populary/popular'
+import Popular from '../components/populary/Popular'
 
 const Shop = () => {
     return (
         <div>
         <Hero/>
-        <popular/>
+        <Popular/>
         </div>
     )
 }

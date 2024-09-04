@@ -1,9 +1,9 @@
 import React from "react";
-import './popular.css'
+import './Popular.css'
 import all_product from "../assests/all_product";
 import Items from "../Items/Items";
 
-const popular = () => {
+const Popular = () => {
     return (
         <div className='popular'>
           <h1>Latest Branding</h1>
@@ -17,4 +17,4 @@ const popular = () => {
         )
 }
 
-export default popular
+export default Popular
