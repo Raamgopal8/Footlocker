@@ -17,7 +17,7 @@ import p16_img from "./product_16.jpg";
 import p17_img from "./product_17.jpg";
 import p18_img from "./product_18.jpg";
 
-let all_product = [
+let shoes = [
   {
     id: 1,
     name: "casual shoes for girls",
@@ -167,4 +167,4 @@ let all_product = [
   },
 ];
 
-export default all_product;
+export default shoes;
