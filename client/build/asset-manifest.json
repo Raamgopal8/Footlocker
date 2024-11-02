@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4aa21fe.css",
+    "main.js": "/static/js/main.279401a8.js",
+    "static/js/453.3399a199.chunk.js": "/static/js/453.3399a199.chunk.js",
+    "static/media/banner_kids.png": "/static/media/banner_kids.fff815a581793a7380fb.png",
+    "static/media/banner_women.png": "/static/media/banner_women.5a27fc4e4533e57e4676.png",
+    "static/media/banner_mens.png": "/static/media/banner_mens.eed7197157196f319b17.png",
+    "static/media/foot_icon.jpg": "/static/media/foot_icon.88c647f9dc5d28d1de22.jpg",
+    "static/media/product_16.jpg": "/static/media/product_16.673295078a2999049205.jpg",
+    "static/media/product_10.jpg": "/static/media/product_10.da25add601e2d7b66572.jpg",
+    "static/media/product_1.jpg": "/static/media/product_1.4b4507a4809f2e0a71c0.jpg",
+    "static/media/product_11.jpg": "/static/media/product_11.334030c7b7d77c314e2a.jpg",
+    "static/media/product_4.jpg": "/static/media/product_4.6c5609a9a356cdede2de.jpg",
+    "static/media/product_6.jpg": "/static/media/product_6.c85e53765634e093f927.jpg",
+    "static/media/product_17.jpg": "/static/media/product_17.c859ab9e14b5e8b168cd.jpg",
+    "static/media/product_7.jpg": "/static/media/product_7.30c0dd3c341381463902.jpg",
+    "static/media/product_14.jpg": "/static/media/product_14.11ce268bae1c43a6fc57.jpg",
+    "static/media/product_18.jpg": "/static/media/product_18.310dc07e861f3f24da17.jpg",
+    "static/media/product_13.jpg": "/static/media/product_13.ce59384f02584d188a09.jpg",
+    "static/media/product_8.jpg": "/static/media/product_8.358713dbc8c1aea9b2d8.jpg",
+    "static/media/product_9.jpg": "/static/media/product_9.d64f7488b54316e7002a.jpg",
+    "static/media/product_3.jpg": "/static/media/product_3.6920261bdbe559ef3548.jpg",
+    "static/media/product_15.jpg": "/static/media/product_15.76b454a188c973d41858.jpg",
+    "static/media/product_2.jpg": "/static/media/product_2.32bab301293494a259ec.jpg",
+    "static/media/product_12.jpg": "/static/media/product_12.9ef687b2ff79075222fc.jpg",
+    "static/media/product_5.jpg": "/static/media/product_5.6c7b8885a318baf347f1.jpg",
+    "index.html": "/index.html",
+    "main.b4aa21fe.css.map": "/static/css/main.b4aa21fe.css.map",
+    "main.279401a8.js.map": "/static/js/main.279401a8.js.map",
+    "453.3399a199.chunk.js.map": "/static/js/453.3399a199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4aa21fe.css",
+    "static/js/main.279401a8.js"
+  ]
+}
