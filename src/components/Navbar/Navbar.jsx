@@ -1,4 +1,4 @@
-import React, { useState } from 'react' 
+import React, { useContext, useState } from 'react' 
 import './Navbar.css'
 import{ Link } from 'react-router-dom'
 import logo from '../assests/logo.png'
@@ -7,8 +7,7 @@ import cart_icon from '../assests/cart_icon.png'
 
 const Navbar = () => {
    const [menu,setMenu] = useState("shop");
-
-    return(  
+   return(  
         <div className='navbar'>  
            <div className ="nav-logo">
             <img src = {logo} alt=""/>
