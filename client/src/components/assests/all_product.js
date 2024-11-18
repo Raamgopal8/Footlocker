@@ -20,15 +20,16 @@ import p18_img from "./product_18.jpg";
 let all_product = [
   {
     id: 1,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-1",
     category: "women",
     image: p1_img,
     new_price: 50.0,
     old_price: 80.5,
+    slug:'casual-shoes-for-girls-1'
   },
   {
     id: 2,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-2",
     category: "women",
     image: p2_img,
     new_price: 85.0,
@@ -36,7 +37,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-3",
     category: "women",
     image: p3_img,
     new_price: 60.0,
@@ -44,7 +45,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-4",
     category: "women",
     image: p4_img,
     new_price: 100.0,
@@ -52,7 +53,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-5",
     category: "women",
     image: p5_img,
     new_price: 85.0,
@@ -60,7 +61,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "casual shoes for girls",
+    name: "Casual Shoes for Girls-6",
     category: "women",
     image: p6_img,
     new_price: 85.0,
@@ -70,7 +71,7 @@ let all_product = [
   
   {
     id: 7,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-1",
     category: "kid",
     image: p7_img,
     new_price: 85.0,
@@ -78,7 +79,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-2",
     category: "kid",
     image: p8_img,
     new_price: 85.0,
@@ -86,7 +87,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-3",
     category: "kid",
     image: p9_img,
     new_price: 85.0,
@@ -94,7 +95,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-4",
     category: "kid",
     image: p10_img,
     new_price: 85.0,
@@ -102,7 +103,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-5",
     category: "kid",
     image: p11_img,
     new_price: 85.0,
@@ -110,7 +111,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "casual wear for kids",
+    name: "Casual Wear for Kids-6",
     category: "kid",
     image: p12_img,
     new_price: 85.0,
@@ -119,7 +120,7 @@ let all_product = [
   
   {
     id: 13,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-1",
     category: "men",
     image: p13_img,
     new_price: 85.0,
@@ -127,7 +128,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-2",
     category: "men",
     image: p14_img,
     new_price: 85.0,
@@ -135,7 +136,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-3",
     category: "men",
     image: p15_img,
     new_price: 85.0,
@@ -143,7 +144,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-4",
     category: "men",
     image: p16_img,
     new_price: 85.0,
@@ -151,7 +152,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-5",
     category: "men",
     image: p17_img,
     new_price: 85.0,
@@ -159,7 +160,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "casual and office wears for men",
+    name: "Casual and Office Wears for Men-6",
     category: "men",
     image: p18_img,
     new_price: 85.0,

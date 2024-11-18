@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Pages/Footer.css'
-import footer_logo from '../components/assests/logo_big.png'
+import './Footer.css'
+import footer_logo from '../assests/logo_big.png'
 
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer'>
         <div className="footer-logo">
             <img src={footer_logo} alt = "" />
-            <p>SHOPPER</p> 
+            <p>FOOTER</p> 
         </div>
         <ul className="footer-links">
             <li>Company</li>
@@ -18,6 +18,7 @@ const Footer = () => {
             <li>Contact</li>
         </ul>
         <div className="footer-copyright">
+            <hr />
             <p>Copyright @2024 Shopper. All rights reserved.</p>
         </div>
         </div>

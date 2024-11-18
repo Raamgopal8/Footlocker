@@ -6,11 +6,11 @@ import LoginSignup from './Pages/LoginSignup';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
-import Cart from './Pages/Cart';
+import Cart from './components/CartItems/Cart';
 import men_banner from './components/assests/banner_mens.png';
 import women_banner from './components/assests/banner_women.png';
 import kid_banner from './components/assests/banner_kids.png';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -29,9 +29,9 @@ function App() {
        <Route path = '/Cart' element = {<Cart/>}/>
        <Route path = '/login' element = {<LoginSignup/>}/> 
        </Routes>
+       <Footer/>
        
-
-    </BrowserRouter>
+       </BrowserRouter>
 
     </div>
   );

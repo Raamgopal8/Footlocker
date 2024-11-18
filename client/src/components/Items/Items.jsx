@@ -1,17 +1,17 @@
 import React from "react";
 import './Items.css'
-
+import { Link } from 'react-router-dom'
 
 const Items = (props) => {
    return (
     <div className='item'>
-      <img src={props.image} alt = "" />
+     <Link to = {`/product/${props.id}`}><img onClick = {window.scrollTo(0,0)} src={props.image} alt = "" /></Link> 
        <p>{props.name}</p>
        <div className="item-prices"> 
        <div className="item-prices-new">
          RS{props.new_price}
        </div>
-         <div className="item-prices-old">
+      <div className="item-prices-old">
         RS{props.old_price}
          
          </div>     

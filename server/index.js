@@ -1,4 +1,4 @@
-const port = 4000;
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -8,12 +8,17 @@ const path = require("path");
 const cors = require("cors");
 const { type } = require("os");
 const { log } = require("console");
+const port = process.env.DB_PORT;
 
 app.use(express.json());
 app.use(cors());
 
 //database integration 
-mongoose.connect("mongodb+srv://raam1234:raam1234@cluster.pkmuj.mongodb.net/footlocker");
+mongoose.connect(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true });
+    const db = mongoose.connection
+    db.once('open',()=>{
+        console.log("mongodb connection success!")
+    })
 
 app.get("/", (req,res) =>{
     res.send("Express App is running")
