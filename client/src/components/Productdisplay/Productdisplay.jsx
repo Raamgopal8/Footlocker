@@ -48,7 +48,7 @@ const Productdisplay = (props) => {
                 <div>10</div>
             </div>
         </div>
-        <button onClick ={()=>{addToCart(product.id)}}>ADD TO CART</button>
+        <button onClick ={() => {addToCart(product.id)}}>ADD TO CART</button>
         <p className="product-right-cate"><span>Category:</span>MEN , SHOES , Formal , casual</p>
         <p className="product-right-cate"><span>Tags:</span>Modern , Good Quality , Trending</p>
         </div>

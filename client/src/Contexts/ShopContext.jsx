@@ -5,7 +5,7 @@ export const ShopContext = createContext(null);
 
 const getDefaultCart = () =>{
   let cart = {};
-  for(let index = 0; index<all_product;index++){
+  for(let index = 0; index < all_product ; index++){
     cart[index] = 0;
 
   }
@@ -16,9 +16,22 @@ const ShopContextProvider = (props) => {
   
   const [cartItems,setCartItems] = useState(getDefaultCart());
   
-  const addToCart = (itemId) =>{
-   setCartItems((prev) => ({...prev,[itemId]:prev[itemId]+1}))
-  }
+  const addToCart = (item) => {
+    setCartItems(prevCart => {
+        const existingItem = prevCart.find(cartItem => cartItem.id === item.id);
+        if (existingItem) {
+            
+            return prevCart.map(cartItem =>
+                cartItem.id === item.id
+                    ? { ...cartItem, quantity: cartItem.quantity + 1 }
+                    : cartItem
+            );
+        } else {
+            
+            return [...prevCart, { ...item, quantity: 1 }];
+        }
+    });
+};
 
   const removeFromCart = (itemId) =>{
     setCartItems((prev) => ({...prev,[itemId]:prev[itemId]-1}))
