@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Pages/CSS/LoginSignup.css';
+import { Link } from 'react-router-dom';
 
 const LoginSignup = () => {
     return (
@@ -12,7 +13,7 @@ const LoginSignup = () => {
                     <input type = "password" placeholder='Password'/>
 
                 </div>
-                <button>Continue</button>
+         <Link to = "/"> <button>Continue</button> </Link>
                 <p className="loginsignup-login">Already have an account?<span>Login Here</span></p>
             <div className="loginsignup-agree">
                 <input type="checkbox" name ='' id = '' />
